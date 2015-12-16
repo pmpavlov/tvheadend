@@ -10,7 +10,7 @@ RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -m -y wget git curl make dkms dpkg-dev python \
     build-essential pkg-config libssl-dev bzip2 \
     libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev \
-    libcurl4-gnutls-dev liburiparser-dev \
+    libcurl4-gnutls-dev liburiparser-dev linux-firmware \
     debhelper
 
 # checkout, build, and install tvheadend
